@@ -1,0 +1,8 @@
+[
+    { "title": "Montaña Hermosa", "url": "img/montaña.png", "category": "naturaleza" },
+    { "title": "Ciudad Nocturna", "url": "img/ciudad noc.png", "category": "ciudad" },
+    { "title": "Gato", "url": "img/gato.png", "category": "animales" },
+    { "title": "Selva Hermosa", "url": "img/selva.png", "category": "naturaleza" },
+    { "title": "Perro", "url": "img/perro.png", "category": "animales" },
+    { "title": "Lagarto", "url": "img/lagarto.png", "category": "animales" }
+]

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Fotos Dinámica</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <div id="app">
+        <input type="text" id="searchInput" placeholder="Buscar por título...">
+        <select id="filterSelect">
+            <option value="all">Todas</option>
+            <option value="naturaleza">Naturaleza</option>
+            <option value="ciudad">Ciudad</option>
+            <option value="animales">Animales</option>
+        </select>
+        <div id="gallery"></div>
+        <button id="loadMoreBtn" style="display: none;">Cargar más</button>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
