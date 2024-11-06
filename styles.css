@@ -3,14 +3,20 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: center;
 }
 
 #app {
-    max-width: 800px;
+    max-width: 1200px;
     width: 100%;
     margin-top: 20px;
+}
+
+#controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
 #searchInput, #filterSelect {
@@ -19,10 +25,17 @@ body {
     width: 100%;
 }
 
+#content {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
 #gallery {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
+    flex: 3;
 }
 
 .image-card {
@@ -50,17 +63,9 @@ body {
     text-align: center;
 }
 
-#loadMoreBtn {
-    margin: 20px 0;
-    padding: 10px 20px;
-    background-color: #007BFF;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-#loadMoreBtn:hover {
-    background-color: #0056b3;
+#profMessage {
+    flex: 1;
+    font-size: 1.7rem;
+    color: #333;
+    text-align: left;
 }

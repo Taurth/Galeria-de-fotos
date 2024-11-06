@@ -10,14 +10,22 @@
 </head>
 <body>
     <div id="app">
-        <input type="text" id="searchInput" placeholder="Buscar por título...">
-        <select id="filterSelect">
-            <option value="all">Todas</option>
-            <option value="naturaleza">Naturaleza</option>
-            <option value="ciudad">Ciudad</option>
-            <option value="animales">Animales</option>
-        </select>
-        <div id="gallery"></div>
+        <div id="controls">
+            <input type="text" id="searchInput" placeholder="Buscar por título...">
+            <select id="filterSelect">
+                <option value="all">Todas</option>
+                <option value="naturaleza">Naturaleza</option>
+                <option value="ciudad">Ciudad</option>
+                <option value="animales">Animales</option>
+            </select>
+        </div>
+
+        <div id="content">
+            <div id="gallery"></div>
+        </div>
+        <div id="profMessage">
+            <p>Profe, te dejo el link acá: "". Ya que me equivoque al enviar el link en la plataforma</p>
+        </div>
         <button id="loadMoreBtn" style="display: none;">Cargar más</button>
     </div>
     <script src="main.js"></script>
